@@ -1,5 +1,5 @@
 # TranscriptApp v1.0.0
- A transcript app to transcribe long videos into a text file.
+ A transcript app to transcribe long videos into a text file. Ca be used transcribe long videos, lectures, debates and so on. The possibilities are endless!
  
  Setup:
  
