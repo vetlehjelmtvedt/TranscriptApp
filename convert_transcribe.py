@@ -92,7 +92,7 @@ class Convert_Extract():
 
             counter += 1
 
-        subprocess.call("py -2 ./sttClient.py -credentials 96c260dc-814a-4810-a361-dba8fe6e9b9a:Dqa6Uvn5aSzB -model en-US_BroadbandModel -threads 10")
+        subprocess.call("py -2 ./sttClient.py -credentials XXXXXXX-XXXX-XXX-XXX:XXXXXX -model en-US_BroadbandModel -threads 10")
         shutil.move("C:/Users/vetle/Desktop/IBM_App/output/hypotheses.txt", output_dir + "/transcript.txt")
 
 
