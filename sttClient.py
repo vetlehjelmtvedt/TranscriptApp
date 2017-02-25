@@ -35,6 +35,13 @@ from twisted.python import log
 from twisted.internet import ssl, reactor
 
 
+
+
+
+with open("path_output.txt", "r") as file:
+    path_output = file.read()
+
+
 class Utils:
 
     @staticmethod
@@ -358,7 +365,7 @@ if __name__ == '__main__':
     reactor.run()
 
     # dump the hypotheses to the output file
-    fileHypotheses = args.dirOutput + "/hypotheses.txt"
+    fileHypotheses = path_output
     f = open(fileHypotheses, "w")
     counter = 1
     successful = 0
